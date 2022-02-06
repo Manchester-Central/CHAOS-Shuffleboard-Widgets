@@ -1,12 +1,12 @@
 # CHAOS Shuffleboard Widgets
 
-This repository contains the code [FRC Team 131, CHAOS](https://www.chaos131.com) uses for their custom ShuffleBoard widgets.
+This repository contains the code [FRC Team 131, CHAOS,](https://www.chaos131.com) uses for their custom ShuffleBoard widgets.
 
 It currently contains:
 * A widget for configuring the Auto Steps that we use for our autonomous scripting language
 
 
-# HOW-TO: Build, Debug, and Deploy Your Widget(s)
+# HOW-TO: Build, Debug, and Deploy our Widget(s)
 
 ## Building
 
@@ -28,7 +28,7 @@ Building only builds the project.  It does not deploy the resulting jar where it
 
 ## Deploying
 
-Deploying will copy the jar to the `%USERPROFILE%/Shuffleboard/plugins` (Windows) or `~/Shuffleboard/plugins` (Linux/Mac) folder on the local machine.  Shuffleboard will automatically make widgets in your jar available for use when it starts. Deploying is similar to building:
+Deploying will copy the jar to the `%USERPROFILE%/Shuffleboard/plugins` (Windows) or `~/Shuffleboard/plugins` (Linux/Mac) folder on the local machine.  Shuffleboard will automatically make widgets in our jar available for use when it starts. Deploying is similar to building:
 
 1. Click the *WPILib Command Palette* button in the top right corner or press CTRL-SHIFT-P.
 2. Type `WPILib: Run a command in Gradle`
@@ -38,7 +38,7 @@ Running the `deployWidget` task will automatically invoke the `build` task.
 
 ## Debugging
 
-Once the `deployWidget` Gradle task copies your jar for automatic loading by Shuffleboard, you can perform some debugging.
+Once the `deployWidget` Gradle task copies our jar for automatic loading by Shuffleboard, you can perform some debugging.
 
 ### Non-Interactive Debugging
 Using Java API methods to output text to [STDOUT](https://en.wikipedia.org/wiki/Standard_streams "Learn about standard streams") (i.e. `System.out.println()` or similar) will be captured in output log files.  Every time Shuffleboard runs, 
@@ -49,4 +49,4 @@ A tutorial about debugging in VSCode can be found [here](https://code.visualstud
 
 
 # Thanks
-Thanks to [FRC Team 3735, VorTX](https://github.com/vortx3735) for the [Shuffleboard Widget Template](https://github.com/nleach999/Vortx3735.Shuffleboard.2019.WidgetTutorial)!
+Thanks to [FRC Team 3735, VorTX,](https://github.com/vortx3735) for the [Shuffleboard Widget Template](https://github.com/nleach999/Vortx3735.Shuffleboard.2019.WidgetTutorial)!
