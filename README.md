@@ -5,6 +5,8 @@ This repository contains the code [FRC Team 131, CHAOS,](https://www.chaos131.co
 It currently contains:
 * A widget for configuring the Auto Steps that we use for our autonomous scripting language
 
+Check our [releases page](https://github.com/Manchester-Central/CHAOS-Shuffleboard-Widgets/releases) for our latest published versions.
+
 
 # HOW-TO: Build, Debug, and Deploy our Widget(s)
 
@@ -47,6 +49,8 @@ a log file may be found at `%USERPROFILE%/Shuffleboard` (Windows) or `~/Shuffleb
 ### Interactive Debugging
 A tutorial about debugging in VSCode can be found [here](https://code.visualstudio.com/docs/java/java-debugging "Java Debuggin in VSCode") for those who are not familiar with interactive debugging.  A file `.vscode/launch.json` has been included that will automatically launch Shuffleboard when selecting **Debug->Start Debugging** (or **F5** as the keyboard shortcut).  You can then set breakpoints, inspect variables, and do all sorts of other things that make debugging this way superior to the old-school *log-to-stdout* method.
 
+## Releasing
+When done add a new release with the created jar attached with an increased version number. (See [Deploying](#Deploying) for details about where the jar is deployed to locally.)
 
 # Thanks
 Thanks to [FRC Team 3735, VorTX,](https://github.com/vortx3735) for the [Shuffleboard Widget Template](https://github.com/nleach999/Vortx3735.Shuffleboard.2019.WidgetTutorial)!
