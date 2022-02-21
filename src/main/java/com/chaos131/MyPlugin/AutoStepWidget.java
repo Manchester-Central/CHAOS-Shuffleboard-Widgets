@@ -38,7 +38,7 @@ import javafx.collections.ObservableList;
 
 // The tutorial video shows the dataTypes as "Boolean.class" but it should be
 // NoneType.class for widgets that don't support data binding.
-@Description(dataTypes = NoneType.class, name = "Auto Steps")
+@Description(dataTypes = StringArrayType.class, name = "Auto Steps")
 @ParametrizedController("AutoStepWidget.fxml")
 @SuppressWarnings("all")
 public class AutoStepWidget extends SimpleAnnotatedWidget<String[]> {
